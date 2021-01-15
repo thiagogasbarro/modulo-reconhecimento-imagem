@@ -8,7 +8,7 @@
 import UIKit
 import Vision
 
-public class AnalysisResultViewController: UIViewController {
+ class AnalysisResultViewController: UIViewController {
     
     @IBOutlet weak var uiResultImageView: UIImageView!
     @IBOutlet weak var uiResulLabel: UILabel!
@@ -17,7 +17,7 @@ public class AnalysisResultViewController: UIViewController {
     private var results: [VNClassificationObservation]
     private var imageToLoad: UIImage
     
-   public init(image: UIImage, results: [VNClassificationObservation]) {
+    init(image: UIImage, results: [VNClassificationObservation]) {
         self.imageToLoad = image
         self.results = results
         super.init(nibName: "AnalysisResultViewController", bundle: nil)
@@ -27,7 +27,7 @@ public class AnalysisResultViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    public override func viewDidLoad() {
+     override func viewDidLoad() {
         super.viewDidLoad()
         setupResults()
     }
