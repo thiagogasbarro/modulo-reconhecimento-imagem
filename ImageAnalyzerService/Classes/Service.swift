@@ -14,10 +14,8 @@ public protocol ImageAnalyzerService {
 }
 
 public class ImageAnalyzer: ImageAnalyzerService {
-    
+    public init() {}
     public func analyzeImage(image: UIImage, navigationController: UINavigationController, failure: @escaping (_ error: String) -> Void) {
-        
-        public init () {}
         
         guard let ciImage = CIImage(image: image) else {
             failure("couldn't convert UIImage to CIImage")
