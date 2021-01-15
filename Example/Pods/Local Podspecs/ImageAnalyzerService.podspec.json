@@ -1,0 +1,22 @@
+{
+  "name": "ImageAnalyzerService",
+  "version": "0.1.0",
+  "summary": "A short description of ImageAnalyzerService.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/thiagogasbarro/ImageAnalyzerService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "thiagogasbarro": "thiago_gasbarro@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/thiagogasbarro/ImageAnalyzerService.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source_files": "ImageAnalyzerService/Classes/**/*.{json,xib,plist,storyboard,xcassets,mlmodel,swift}"
+}

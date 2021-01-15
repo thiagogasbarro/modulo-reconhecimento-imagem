@@ -11,6 +11,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Para o funcionamento deste módulo, utilize o model YOLOv3 
+
+https://ml-assets.apple.com/coreml/models/Image/ObjectDetection/YOLOv3/YOLOv3.mlmodel
+
 ## Installation
 
 ImageAnalyzerService is available through [CocoaPods](https://cocoapods.org). To install
@@ -22,8 +26,9 @@ pod 'ImageAnalyzerService'
 
 ## Author
 
-thiagogasbarro, thiago_gasbarro@outlook.com
+Thiago Gasbarro
 
 ## License
 
 ImageAnalyzerService is available under the MIT license. See the LICENSE file for more info.
+

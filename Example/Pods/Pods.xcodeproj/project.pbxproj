@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0C7BA28612029A46FFCE58633C36F3 /* ImageAnalyzerService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8627BFD240308A5FC8B44F73256A23 /* ImageAnalyzerService-dummy.m */; };
+		12266D1ADB9BA3B5F9E31B8454218948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		23706EA423782D1B4427E45A9B156CB1 /* Pods-ImageAnalyzerService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB4833AAFB2A1ADA95A8A742FBC0DF7 /* Pods-ImageAnalyzerService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50FEAD7D80B4E2A0C9B2ED7DD318498E /* YOLOv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D32AEAAB228A3F1E3C48B1B66A7C717E /* YOLOv3.mlmodel */; };
+		5168B893B73876575C71845B6C7A6E34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5572AC61B10053ACC60A0003DA49AD92 /* AnalysisResultViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = C4DFDAAB21B6B1526D4111DFB87DF8D4 /* AnalysisResultViewController.xib */; };
+		5BCADDD9C9DD162981DA99543D2017FB /* Pods-ImageAnalyzerService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E64D1FD55EEA3ECFACFB2F0884337699 /* Pods-ImageAnalyzerService_Tests-dummy.m */; };
+		70884F790138AA126D206C1DF8F80F50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		985CEB6C6D74586480B6F9FFB98B05B5 /* Pods-ImageAnalyzerService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D55EFDCB6CDCE22A05CA5DC9AD3E512 /* Pods-ImageAnalyzerService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC9D52EEBF1E1F1AFD07BC3EAB718AF7 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3631194991B4B8484A6A8AACA1F5371D /* Service.swift */; };
+		C3540219F4E1B4F806B30FDFB59C49D5 /* AnalysisResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97A50790F1FDC79F4A0E591E7D12269 /* AnalysisResultViewController.swift */; };
+		D87602AAECE03E7EA1CEA4C563F34C1D /* Pods-ImageAnalyzerService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC942BAEC7E92EBE045AAEF14FD91AF /* Pods-ImageAnalyzerService_Example-dummy.m */; };
+		EFDB4280107A50650F1471D65BFCF1B2 /* ImageAnalyzerService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A9E3A0E38E47539702E6EE8D876005 /* ImageAnalyzerService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9261489FCB62F32B060012AC8631F6EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0475648BEC97916249E9997434D92576;
+			remoteInfo = ImageAnalyzerService;
+		};
+		E407F237D0EEF0073BA3DB19A9C72287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16AEDD0C9E6BE5A7830A463715AEEB09;
+			remoteInfo = "Pods-ImageAnalyzerService_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2225875A03E485E865B3978DD8E2F13B /* Pods-ImageAnalyzerService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageAnalyzerService_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2BCE534BA8C9DEE0BF6F62290D480869 /* Pods-ImageAnalyzerService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageAnalyzerService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2DB3F4CF39A9818C3DA3F5B875DE0866 /* Pods-ImageAnalyzerService_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageAnalyzerService_Tests-Info.plist"; sourceTree = "<group>"; };
+		3051C7609D4DD4F395173684E907154E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3631194991B4B8484A6A8AACA1F5371D /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = ImageAnalyzerService/Classes/Service.swift; sourceTree = "<group>"; };
+		36A9E3A0E38E47539702E6EE8D876005 /* ImageAnalyzerService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageAnalyzerService-umbrella.h"; sourceTree = "<group>"; };
+		4481B990860965ED96BDBDFE2162CFC8 /* ImageAnalyzerService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageAnalyzerService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1B81AC682A598D95C08679594242AE /* Pods-ImageAnalyzerService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageAnalyzerService_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4D55EFDCB6CDCE22A05CA5DC9AD3E512 /* Pods-ImageAnalyzerService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageAnalyzerService_Tests-umbrella.h"; sourceTree = "<group>"; };
+		51097DAAFE4E33FA45C7AC0083770B45 /* Pods-ImageAnalyzerService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageAnalyzerService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		587978CC4594682662EFBD407C310467 /* Pods-ImageAnalyzerService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageAnalyzerService_Example-frameworks.sh"; sourceTree = "<group>"; };
+		60A36A7AA954E1524B8817600904AD75 /* ImageAnalyzerService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ImageAnalyzerService-Info.plist"; sourceTree = "<group>"; };
+		64918E341F0E3A9EC33F87CAB8DF5BB1 /* Pods-ImageAnalyzerService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageAnalyzerService_Tests.modulemap"; sourceTree = "<group>"; };
+		6B68D2B062B0F84817ED7A9FA0EB4ABD /* ImageAnalyzerService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageAnalyzerService.release.xcconfig; sourceTree = "<group>"; };
+		6CF3D4D11B0E1403920497BAFA77EBE8 /* Pods-ImageAnalyzerService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageAnalyzerService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F619648BB86E25081A78D8FF23C3461 /* ImageAnalyzerService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImageAnalyzerService.modulemap; sourceTree = "<group>"; };
+		6F8627BFD240308A5FC8B44F73256A23 /* ImageAnalyzerService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageAnalyzerService-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E5382E7B8A8661BC4A246ABC87270E0 /* Pods-ImageAnalyzerService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageAnalyzerService_Example.modulemap"; sourceTree = "<group>"; };
+		90FF19A221B5C1BCE02E0F183355150D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		922BF230507B0051C25FD47685294F01 /* Pods-ImageAnalyzerService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageAnalyzerService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A49FBFA3EFA32642AB5668928872CBD /* Pods_ImageAnalyzerService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageAnalyzerService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB4833AAFB2A1ADA95A8A742FBC0DF7 /* Pods-ImageAnalyzerService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageAnalyzerService_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B30D0CA1BBD595A4BC2EE00F6B2291CA /* Pods-ImageAnalyzerService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageAnalyzerService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2C4C07DFEBB2CD6C049C03AD0F1C89B /* ImageAnalyzerService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ImageAnalyzerService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2E8EA97B4528CD8BCA77F26B780F22E /* Pods_ImageAnalyzerService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageAnalyzerService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DFDAAB21B6B1526D4111DFB87DF8D4 /* AnalysisResultViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AnalysisResultViewController.xib; path = ImageAnalyzerService/Classes/AnalysisResultViewController.xib; sourceTree = "<group>"; };
+		D32AEAAB228A3F1E3C48B1B66A7C717E /* YOLOv3.mlmodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.mlmodel; name = YOLOv3.mlmodel; path = ImageAnalyzerService/Classes/YOLOv3.mlmodel; sourceTree = "<group>"; };
+		D97A50790F1FDC79F4A0E591E7D12269 /* AnalysisResultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnalysisResultViewController.swift; path = ImageAnalyzerService/Classes/AnalysisResultViewController.swift; sourceTree = "<group>"; };
+		DC1A6FA18486EF6E0FF2BBD1D88C2466 /* Pods-ImageAnalyzerService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageAnalyzerService_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E4C7E55E4D42E797C3DE3D7005FC9371 /* ImageAnalyzerService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageAnalyzerService.debug.xcconfig; sourceTree = "<group>"; };
+		E64D1FD55EEA3ECFACFB2F0884337699 /* Pods-ImageAnalyzerService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageAnalyzerService_Tests-dummy.m"; sourceTree = "<group>"; };
+		FA3DB737EFB861583E6585B6115D8870 /* Pods-ImageAnalyzerService_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageAnalyzerService_Example-Info.plist"; sourceTree = "<group>"; };
+		FCC942BAEC7E92EBE045AAEF14FD91AF /* Pods-ImageAnalyzerService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageAnalyzerService_Example-dummy.m"; sourceTree = "<group>"; };
+		FD14E18F5B716A81D0646352BC6CB24F /* ImageAnalyzerService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageAnalyzerService-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AB08F549FF19759845F3CFE901F6D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70884F790138AA126D206C1DF8F80F50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF6D2493E4875C38A5490DA0A98D0FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5168B893B73876575C71845B6C7A6E34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BF1F87822DA6334788CF25D067B4AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12266D1ADB9BA3B5F9E31B8454218948 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3246479FCDD49D838A0F3D279A0D7FC2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B64ECB8D744E0F0151B2DA2008DE220E /* Pods-ImageAnalyzerService_Example */,
+				4000FF38BD86694568D61EA240B07234 /* Pods-ImageAnalyzerService_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3C0EDA44BB2E2D3385E4542452AF3D46 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C2C4C07DFEBB2CD6C049C03AD0F1C89B /* ImageAnalyzerService.podspec */,
+				3051C7609D4DD4F395173684E907154E /* LICENSE */,
+				90FF19A221B5C1BCE02E0F183355150D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4000FF38BD86694568D61EA240B07234 /* Pods-ImageAnalyzerService_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				64918E341F0E3A9EC33F87CAB8DF5BB1 /* Pods-ImageAnalyzerService_Tests.modulemap */,
+				51097DAAFE4E33FA45C7AC0083770B45 /* Pods-ImageAnalyzerService_Tests-acknowledgements.markdown */,
+				6CF3D4D11B0E1403920497BAFA77EBE8 /* Pods-ImageAnalyzerService_Tests-acknowledgements.plist */,
+				E64D1FD55EEA3ECFACFB2F0884337699 /* Pods-ImageAnalyzerService_Tests-dummy.m */,
+				2DB3F4CF39A9818C3DA3F5B875DE0866 /* Pods-ImageAnalyzerService_Tests-Info.plist */,
+				4D55EFDCB6CDCE22A05CA5DC9AD3E512 /* Pods-ImageAnalyzerService_Tests-umbrella.h */,
+				B30D0CA1BBD595A4BC2EE00F6B2291CA /* Pods-ImageAnalyzerService_Tests.debug.xcconfig */,
+				DC1A6FA18486EF6E0FF2BBD1D88C2466 /* Pods-ImageAnalyzerService_Tests.release.xcconfig */,
+			);
+			name = "Pods-ImageAnalyzerService_Tests";
+			path = "Target Support Files/Pods-ImageAnalyzerService_Tests";
+			sourceTree = "<group>";
+		};
+		52142B4430E89DEA711CAA7EBF137C16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4481B990860965ED96BDBDFE2162CFC8 /* ImageAnalyzerService.framework */,
+				C2E8EA97B4528CD8BCA77F26B780F22E /* Pods_ImageAnalyzerService_Example.framework */,
+				9A49FBFA3EFA32642AB5668928872CBD /* Pods_ImageAnalyzerService_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		945B8B9C960344C1BC9737C5D67FFBB1 /* ImageAnalyzerService */ = {
+			isa = PBXGroup;
+			children = (
+				D97A50790F1FDC79F4A0E591E7D12269 /* AnalysisResultViewController.swift */,
+				C4DFDAAB21B6B1526D4111DFB87DF8D4 /* AnalysisResultViewController.xib */,
+				3631194991B4B8484A6A8AACA1F5371D /* Service.swift */,
+				D32AEAAB228A3F1E3C48B1B66A7C717E /* YOLOv3.mlmodel */,
+				3C0EDA44BB2E2D3385E4542452AF3D46 /* Pod */,
+				C7D98C45CDF5853F2DE7D114E050D6AC /* Support Files */,
+			);
+			name = ImageAnalyzerService;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B64ECB8D744E0F0151B2DA2008DE220E /* Pods-ImageAnalyzerService_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7E5382E7B8A8661BC4A246ABC87270E0 /* Pods-ImageAnalyzerService_Example.modulemap */,
+				2BCE534BA8C9DEE0BF6F62290D480869 /* Pods-ImageAnalyzerService_Example-acknowledgements.markdown */,
+				922BF230507B0051C25FD47685294F01 /* Pods-ImageAnalyzerService_Example-acknowledgements.plist */,
+				FCC942BAEC7E92EBE045AAEF14FD91AF /* Pods-ImageAnalyzerService_Example-dummy.m */,
+				587978CC4594682662EFBD407C310467 /* Pods-ImageAnalyzerService_Example-frameworks.sh */,
+				FA3DB737EFB861583E6585B6115D8870 /* Pods-ImageAnalyzerService_Example-Info.plist */,
+				9AB4833AAFB2A1ADA95A8A742FBC0DF7 /* Pods-ImageAnalyzerService_Example-umbrella.h */,
+				4C1B81AC682A598D95C08679594242AE /* Pods-ImageAnalyzerService_Example.debug.xcconfig */,
+				2225875A03E485E865B3978DD8E2F13B /* Pods-ImageAnalyzerService_Example.release.xcconfig */,
+			);
+			name = "Pods-ImageAnalyzerService_Example";
+			path = "Target Support Files/Pods-ImageAnalyzerService_Example";
+			sourceTree = "<group>";
+		};
+		C7D98C45CDF5853F2DE7D114E050D6AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F619648BB86E25081A78D8FF23C3461 /* ImageAnalyzerService.modulemap */,
+				6F8627BFD240308A5FC8B44F73256A23 /* ImageAnalyzerService-dummy.m */,
+				60A36A7AA954E1524B8817600904AD75 /* ImageAnalyzerService-Info.plist */,
+				FD14E18F5B716A81D0646352BC6CB24F /* ImageAnalyzerService-prefix.pch */,
+				36A9E3A0E38E47539702E6EE8D876005 /* ImageAnalyzerService-umbrella.h */,
+				E4C7E55E4D42E797C3DE3D7005FC9371 /* ImageAnalyzerService.debug.xcconfig */,
+				6B68D2B062B0F84817ED7A9FA0EB4ABD /* ImageAnalyzerService.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ImageAnalyzerService";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D3C0A3715C23B08B362E33E92CD675D9 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				52142B4430E89DEA711CAA7EBF137C16 /* Products */,
+				3246479FCDD49D838A0F3D279A0D7FC2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3C0A3715C23B08B362E33E92CD675D9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				945B8B9C960344C1BC9737C5D67FFBB1 /* ImageAnalyzerService */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A0D0A352FCB6CBF7CD5E5EBFDFA0DC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23706EA423782D1B4427E45A9B156CB1 /* Pods-ImageAnalyzerService_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38972E8D3B40E6516380318313823A43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985CEB6C6D74586480B6F9FFB98B05B5 /* Pods-ImageAnalyzerService_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4011BF14AF327B12C2B1EE6F601CBA27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDB4280107A50650F1471D65BFCF1B2 /* ImageAnalyzerService-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0475648BEC97916249E9997434D92576 /* ImageAnalyzerService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62CCF95F31B300DA8ECC45BA80A231D5 /* Build configuration list for PBXNativeTarget "ImageAnalyzerService" */;
+			buildPhases = (
+				4011BF14AF327B12C2B1EE6F601CBA27 /* Headers */,
+				12C5D5E9914105971F25C0C5BFBC4AA1 /* Sources */,
+				5AB08F549FF19759845F3CFE901F6D0E /* Frameworks */,
+				D5C724259137B8737611C09B4CA606BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageAnalyzerService;
+			productName = ImageAnalyzerService;
+			productReference = 4481B990860965ED96BDBDFE2162CFC8 /* ImageAnalyzerService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		16AEDD0C9E6BE5A7830A463715AEEB09 /* Pods-ImageAnalyzerService_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43348A6A059D94AD962E6F65B2E7F53 /* Build configuration list for PBXNativeTarget "Pods-ImageAnalyzerService_Example" */;
+			buildPhases = (
+				2A0D0A352FCB6CBF7CD5E5EBFDFA0DC7 /* Headers */,
+				C33E9DD0C0FB5FCDD972F674D7F5775F /* Sources */,
+				7CF6D2493E4875C38A5490DA0A98D0FD /* Frameworks */,
+				0CFF87EC0DBA5377A7A60B4CC1E0BF1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40120AB859448B0EF26AEF868A172B0 /* PBXTargetDependency */,
+			);
+			name = "Pods-ImageAnalyzerService_Example";
+			productName = "Pods-ImageAnalyzerService_Example";
+			productReference = C2E8EA97B4528CD8BCA77F26B780F22E /* Pods_ImageAnalyzerService_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A91C4F694589049748A59ACB1868453 /* Pods-ImageAnalyzerService_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11C1D0901A5D1F1797BE4AC5DA9EBC41 /* Build configuration list for PBXNativeTarget "Pods-ImageAnalyzerService_Tests" */;
+			buildPhases = (
+				38972E8D3B40E6516380318313823A43 /* Headers */,
+				EF178619A82DD680936A14BA11481FCF /* Sources */,
+				B2BF1F87822DA6334788CF25D067B4AF /* Frameworks */,
+				3DF7BB6A0E68C073882503B13DABDCC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				449BF2DC340BD3B03C02ACD081C6A6F0 /* PBXTargetDependency */,
+			);
+			name = "Pods-ImageAnalyzerService_Tests";
+			productName = "Pods-ImageAnalyzerService_Tests";
+			productReference = 9A49FBFA3EFA32642AB5668928872CBD /* Pods_ImageAnalyzerService_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 52142B4430E89DEA711CAA7EBF137C16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0475648BEC97916249E9997434D92576 /* ImageAnalyzerService */,
+				16AEDD0C9E6BE5A7830A463715AEEB09 /* Pods-ImageAnalyzerService_Example */,
+				5A91C4F694589049748A59ACB1868453 /* Pods-ImageAnalyzerService_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CFF87EC0DBA5377A7A60B4CC1E0BF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF7BB6A0E68C073882503B13DABDCC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C724259137B8737611C09B4CA606BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12C5D5E9914105971F25C0C5BFBC4AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3540219F4E1B4F806B30FDFB59C49D5 /* AnalysisResultViewController.swift in Sources */,
+				5572AC61B10053ACC60A0003DA49AD92 /* AnalysisResultViewController.xib in Sources */,
+				0A0C7BA28612029A46FFCE58633C36F3 /* ImageAnalyzerService-dummy.m in Sources */,
+				AC9D52EEBF1E1F1AFD07BC3EAB718AF7 /* Service.swift in Sources */,
+				50FEAD7D80B4E2A0C9B2ED7DD318498E /* YOLOv3.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33E9DD0C0FB5FCDD972F674D7F5775F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87602AAECE03E7EA1CEA4C563F34C1D /* Pods-ImageAnalyzerService_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF178619A82DD680936A14BA11481FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCADDD9C9DD162981DA99543D2017FB /* Pods-ImageAnalyzerService_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		449BF2DC340BD3B03C02ACD081C6A6F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ImageAnalyzerService_Example";
+			target = 16AEDD0C9E6BE5A7830A463715AEEB09 /* Pods-ImageAnalyzerService_Example */;
+			targetProxy = E407F237D0EEF0073BA3DB19A9C72287 /* PBXContainerItemProxy */;
+		};
+		C40120AB859448B0EF26AEF868A172B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ImageAnalyzerService;
+			target = 0475648BEC97916249E9997434D92576 /* ImageAnalyzerService */;
+			targetProxy = 9261489FCB62F32B060012AC8631F6EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06DBAA472764B9C92DC9A3309AD03020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4C7E55E4D42E797C3DE3D7005FC9371 /* ImageAnalyzerService.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageAnalyzerService/ImageAnalyzerService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageAnalyzerService/ImageAnalyzerService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImageAnalyzerService/ImageAnalyzerService.modulemap";
+				PRODUCT_MODULE_NAME = ImageAnalyzerService;
+				PRODUCT_NAME = ImageAnalyzerService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		55341F91B900002EDD253370A0F30188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2225875A03E485E865B3978DD8E2F13B /* Pods-ImageAnalyzerService_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageAnalyzerService_Example/Pods-ImageAnalyzerService_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageAnalyzerService_Example/Pods-ImageAnalyzerService_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8966C2349F2ECB9C83B2DD71F56F034B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30D0CA1BBD595A4BC2EE00F6B2291CA /* Pods-ImageAnalyzerService_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageAnalyzerService_Tests/Pods-ImageAnalyzerService_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageAnalyzerService_Tests/Pods-ImageAnalyzerService_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9E60C0A1A0DE9D1888D77B07A6D26A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C1B81AC682A598D95C08679594242AE /* Pods-ImageAnalyzerService_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageAnalyzerService_Example/Pods-ImageAnalyzerService_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageAnalyzerService_Example/Pods-ImageAnalyzerService_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DAB0746FC2DE2314F6BB4BB7ED265581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B68D2B062B0F84817ED7A9FA0EB4ABD /* ImageAnalyzerService.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageAnalyzerService/ImageAnalyzerService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageAnalyzerService/ImageAnalyzerService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImageAnalyzerService/ImageAnalyzerService.modulemap";
+				PRODUCT_MODULE_NAME = ImageAnalyzerService;
+				PRODUCT_NAME = ImageAnalyzerService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF164BFD2C257F1803662398F909564A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC1A6FA18486EF6E0FF2BBD1D88C2466 /* Pods-ImageAnalyzerService_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageAnalyzerService_Tests/Pods-ImageAnalyzerService_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageAnalyzerService_Tests/Pods-ImageAnalyzerService_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11C1D0901A5D1F1797BE4AC5DA9EBC41 /* Build configuration list for PBXNativeTarget "Pods-ImageAnalyzerService_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8966C2349F2ECB9C83B2DD71F56F034B /* Debug */,
+				DF164BFD2C257F1803662398F909564A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62CCF95F31B300DA8ECC45BA80A231D5 /* Build configuration list for PBXNativeTarget "ImageAnalyzerService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DBAA472764B9C92DC9A3309AD03020 /* Debug */,
+				DAB0746FC2DE2314F6BB4BB7ED265581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F43348A6A059D94AD962E6F65B2E7F53 /* Build configuration list for PBXNativeTarget "Pods-ImageAnalyzerService_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E60C0A1A0DE9D1888D77B07A6D26A3 /* Debug */,
+				55341F91B900002EDD253370A0F30188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

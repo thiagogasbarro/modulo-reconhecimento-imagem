@@ -1,0 +1,16 @@
+PODS:
+  - ImageAnalyzerService (0.1.0)
+
+DEPENDENCIES:
+  - ImageAnalyzerService (from `../`)
+
+EXTERNAL SOURCES:
+  ImageAnalyzerService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ImageAnalyzerService: b0e09cd565e3aa019a13688c0ac97642dbfaf21e
+
+PODFILE CHECKSUM: 607da016ed43b8de8b974296bd0616c744b3cf90
+
+COCOAPODS: 1.10.1

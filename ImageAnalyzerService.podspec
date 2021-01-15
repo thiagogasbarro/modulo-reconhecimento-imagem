@@ -28,13 +28,14 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/thiagogasbarro/ImageAnalyzerService.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '14.0'
 
-  s.source_files = 'ImageAnalyzerService/Classes/**/*'
+  s.source_files = 'ImageAnalyzerService/Classes/**/*.{json,xib,plist,storyboard,xcassets,mlmodel,swift}'
   
-  # s.resource_bundles = {
-  #   'ImageAnalyzerService' => ['ImageAnalyzerService/Assets/*.png']
-  # }
+  
+#   s.resource_bundles = {
+#     'ImageAnalyzerService' => ['ImageAnalyzerService/Assets/*']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

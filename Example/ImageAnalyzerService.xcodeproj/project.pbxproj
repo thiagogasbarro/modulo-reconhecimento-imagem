@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13486DB0921B8814E28F8250 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		13486DB0921B8814E28F8250 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		37BD5260C1FC1DDBD8292F5A /* Pods_ImageAnalyzerService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageAnalyzerService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9DE92740EC55B7219E7D13 /* Pods-ImageAnalyzerService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageAnalyzerService_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ImageAnalyzerService_Tests/Pods-ImageAnalyzerService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ImageAnalyzerService_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageAnalyzerService_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,9 +42,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		682650139FFB8446B4438AF7 /* Pods_ImageAnalyzerService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageAnalyzerService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		97902B0CC99E9D35A8DADBD1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		97902B0CC99E9D35A8DADBD1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A3714638953A4FF6D00402AB /* Pods-ImageAnalyzerService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageAnalyzerService_Tests.release.xcconfig"; path = "Target Support Files/Pods-ImageAnalyzerService_Tests/Pods-ImageAnalyzerService_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A5EB4BB67CACB9D086440AAC /* ImageAnalyzerService.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ImageAnalyzerService.podspec; path = ../ImageAnalyzerService.podspec; sourceTree = "<group>"; };
+		A5EB4BB67CACB9D086440AAC /* ImageAnalyzerService.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ImageAnalyzerService.podspec; path = ../ImageAnalyzerService.podspec; sourceTree = "<group>"; };
 		ABF7909F8E5B99E9FC279173 /* Pods-ImageAnalyzerService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageAnalyzerService_Example.release.xcconfig"; path = "Target Support Files/Pods-ImageAnalyzerService_Example/Pods-ImageAnalyzerService_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BBF60E24979CBDBD8FE43B9D /* Pods-ImageAnalyzerService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageAnalyzerService_Example.debug.xcconfig"; path = "Target Support Files/Pods-ImageAnalyzerService_Example/Pods-ImageAnalyzerService_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,7 +86,6 @@
 				5F9DE92740EC55B7219E7D13 /* Pods-ImageAnalyzerService_Tests.debug.xcconfig */,
 				A3714638953A4FF6D00402AB /* Pods-ImageAnalyzerService_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageAnalyzerService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageAnalyzerService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
